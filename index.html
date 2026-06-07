@@ -3,41 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Developer Portfolio</title>
-    <style>
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; line-height: 1.6; background-color: #f4f4f4; color: #333; }
-        header { background: #2c3e50; color: #ffffff; padding: 2rem 0; text-align: center; }
-        nav { display: flex; justify-content: center; gap: 20px; background: #34495e; padding: 15px; }
-        nav a { color: #ffffff; text-decoration: none; font-weight: bold; }
-        nav a:hover { color: #1abc9c; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: #ffffff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 5px; }
-        footer { text-align: center; padding: 10px; background: #2c3e50; color: #ffffff; margin-top: 20px; }
-        @media (max-width: 600px) { nav { flex-direction: column; align-items: center; } }
-    </style>
+    <title>Iqbal Hasni | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header>
-        <h1>My Engineering Portfolio</h1>
-        <p>Showcasing my software projects and hardware integrations</p>
+        <h1>Iqbal Hasni</h1>
+        <p class="subtitle">Passionate Software Developer building elegant solutions for complex problems.</p>
     </header>
+
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" style="color: #111;">Home</a>
         <a href="about.html">About</a>
         <a href="blog.html">Blog</a>
     </nav>
+
     <div class="container">
-        <h2>About Me</h2>
-        <p>I am a technical student focused on computer science and engineering, specializing in bridging the gap between hardware systems and software development.</p>
         
-        <h3>Technical Resume Highlights</h3>
-        <ul>
-            <li><strong>Hardware & IoT:</strong> Extensive experience with ESP32 and ESP8266 microcontrollers, DHT11 sensors, ultrasonic ranging modules, OLED displays, and ESP-NOW communication protocols.</li>
-            <li><strong>Software & Web Dev:</strong> Proficient in web development architectures including the CodeIgniter 4 (CI4) framework, alongside strong foundations in mathematical logic and programming algorithms.</li>
-            <li><strong>Project Management:</strong> Experienced in structured development timelines, research planning, and maintaining detailed technical logbooks in collaborative team environments.</li>
-        </ul>
+        <h2>Tech Stack</h2>
+        <div class="tag-container">
+            <span class="tag">C++</span>
+            <span class="tag">PHP</span>
+            <span class="tag">CodeIgniter 4 (CI4)</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Git & GitHub</span>
+        </div>
+
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">5 Months</div>
+                <div class="timeline-title">Software Engineering Intern</div>
+                <p class="timeline-subtitle">Softbravo.net</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Academic Project</div>
+                <div class="timeline-title">Development Lead - "Internlink"</div>
+                <p class="timeline-subtitle">Managed development timelines, database schema design, and full-stack integration.</p>
+            </div>
+        </div>
+
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-title">Bachelor of Computer Science in Software Development</div>
+                <p class="timeline-subtitle">Focus: Algorithms, Mathematical Logic, and System Architecture.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-title">Diploma in Information Technology</div>
+                <p class="timeline-subtitle">Focus: Core programming fundamentals and database management.</p>
+            </div>
+        </div>
+
+        <h2>Featured Work</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>ESP-NOW Smart Agriculture</h3>
+                <p>Hardware integration utilizing an ESP32 S3 hub and multiple sensor nodes to monitor soil and automate irrigation systems.</p>
+            </div>
+            <div class="card">
+                <h3>CI4 Web Architectures</h3>
+                <p>Building secure, scalable web applications utilizing MVC frameworks, PHP, and robust MySQL databases.</p>
+            </div>
+        </div>
+
     </div>
+
     <footer>
-        <p>&copy; 2026 My Portfolio</p>
+        <p>&copy; 2026 Iqbal Hasni. Built for SPB.</p>
     </footer>
+
 </body>
 </html>
